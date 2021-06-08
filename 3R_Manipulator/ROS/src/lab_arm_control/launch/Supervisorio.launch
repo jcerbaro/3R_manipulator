@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="supervisorio" name="Supervisorio" type="Supervisorio.py" output="screen"/> 
+	<node name="Arduino_1" pkg="lab_arm_control" type="Arduino_1.py"/>
+	<node name="Arduino_2" pkg="lab_arm_control" type="Arduino_2.py"/>
+</launch>

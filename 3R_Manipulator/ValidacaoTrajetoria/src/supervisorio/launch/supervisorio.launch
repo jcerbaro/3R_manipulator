@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="supervisorio" name="Supervisorio" type="Supervisorio.py" output="screen"> 
+		
+	</node>
+</launch>

@@ -1,0 +1,5 @@
+<launch>
+	<node name="Publica_Angulos" pkg="lab_arm_control" type="Publica_Angulos" output="screen"/>
+	<node name="Arduino_1" pkg="lab_arm_control" type="Arduino_1.py"/>
+	<node name="Arduino_2" pkg="lab_arm_control" type="Arduino_2.py"/>
+</launch>
